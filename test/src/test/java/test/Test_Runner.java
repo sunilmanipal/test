@@ -1,10 +1,9 @@
 package test;
-
+import org.junit.Test;
 public class Test_Runner {
 
-	public static void main(String[] args) {
-		System.out.println("is it working");
-
+	@Test
+	public void ttt(){
+		System.out.println("test");
 	}
-
 }
